@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import TodoForm from './components/TodoForm';
 
 function App() {
   return (
-    <>
-    slll</>
-    
+    <div className="todo-app">
+      <TodoForm/>
+      </div>
+
   );
 }
 
