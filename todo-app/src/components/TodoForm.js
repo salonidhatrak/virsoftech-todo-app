@@ -17,7 +17,7 @@ const TodoForm = (props) => {
                     onChange={(e) => setInput(e.target.value)}
                     className='input'
                     type='text'
-                    placeholder='Add A Todo' />
+                    placeholder='Add a Todo' />
                 <button type='submit' className='btn'>Add Todo</button>
             </form>
         </>

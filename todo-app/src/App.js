@@ -23,6 +23,7 @@ function App() {
     <div className="todo-app">
       <h2>Todo App</h2>
       <TodoForm addTodo={addTodo} />
+      <hr className='divider' />
       {todos.map((todo) => {
         return (
           <TodoItem removeTodo={removeTodo} todo={todo} key={todo.id} />

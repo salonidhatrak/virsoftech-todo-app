@@ -7,8 +7,8 @@
 
 body {
   background: linear-gradient(90deg,
-      rgb(129, 47, 104) 0%,
-      rgba(100, 115, 255, 1) 100%);
+      rgb(57, 190, 239) 0%,
+      rgb(50, 131, 189) 100%);
 }
 
 .todo-app {
@@ -27,6 +27,7 @@ body {
 h2 {
   margin: 25px 0;
   font-size: 30px;
+  color: rgb(3, 87, 117);
 }
 
 .todo-form {
@@ -39,6 +40,7 @@ h2 {
   padding: 14px 32px 14px 16px;
   border: 2px solid rgb(128, 128, 128);
   outline: none;
+  font-size: 15px;
 }
 
 .btn {
@@ -48,7 +50,7 @@ h2 {
   border-radius: 4px 4px 4px 4px;
   cursor: pointer;
   outline: none;
-  color: white;
+  color: whitesmoke;
   text-transform: none;
   background: linear-gradient(90deg,
       rgb(57, 190, 239) 0%,
@@ -80,7 +82,7 @@ h2 {
   margin: 4px auto;
   padding: 16px;
   border-radius: 5px;
-  color: white;
+  color: whitesmoke;
   background: linear-gradient(90deg,
       rgb(57, 190, 239) 0%,
       rgb(50, 131, 189) 100%);
@@ -95,4 +97,11 @@ h2 {
 
 .icon {
   color: rgb(7, 62, 146);
+}
+
+.divider {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+  align-self: center;
 }
