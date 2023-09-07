@@ -5,6 +5,9 @@ const TodoForm = () => {
         <>
             <form className='todo-form'>
                 <input className='input' />
+                <button className='btn'>Add Todo
+                
+                </button>
             </form>
         </>
     )
