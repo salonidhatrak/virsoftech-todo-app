@@ -50,12 +50,11 @@ h2 {
   outline: none;
   color: white;
   text-transform: none;
-  background: linear-gradient(
-    90deg,
-    rgb(57, 190, 239) 0%,
-    rgb(50, 131, 189) 100%
-  );
+  background: linear-gradient(90deg,
+      rgb(57, 190, 239) 0%,
+      rgb(50, 131, 189) 100%);
 }
+
 .btn:hover {
   transform: translateY(2px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -71,4 +70,18 @@ h2 {
   left: 0;
   z-index: -1;
   transition: all .4s;
+}
+
+.todo-row {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  padding: 16px;
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(90deg,
+      rgb(57, 190, 239) 0%,
+      rgb(50, 131, 189) 100%);
 }
