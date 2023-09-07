@@ -4,8 +4,9 @@ import TodoForm from './components/TodoForm';
 function App() {
   return (
     <div className="todo-app">
-      <TodoForm/>
-      </div>
+      <h2>Todo App</h2>
+      <TodoForm />
+    </div>
 
   );
 }
