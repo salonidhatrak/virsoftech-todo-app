@@ -11,16 +11,21 @@ function App() {
     if (todos.length > 0) {
       id = todos[0].id + 1
     }
-    let todo={id:id, text:text}
+    let todo = { id: id, text: text }
     setTodos([todo, ...todos])
+  }
+
+  const removeTodo = (id) => {
+    let updateTodos = [...todos].filter((todo) => todo.id !== id)
+    setTodos(updateTodos)
   }
   return (
     <div className="todo-app">
       <h2>Todo App</h2>
       <TodoForm addTodo={addTodo} />
-      {todos.map((todo)=>{
-        return(
-          <TodoItem todo={todo} key={todo.id}/>
+      {todos.map((todo) => {
+        return (
+          <TodoItem removeTodo={removeTodo} todo={todo} key={todo.id} />
         )
       })}
     </div>
