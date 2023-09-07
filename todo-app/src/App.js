@@ -20,7 +20,7 @@ function App() {
       <TodoForm addTodo={addTodo} />
       {todos.map((todo)=>{
         return(
-          <TodoItem todo={todo}/>
+          <TodoItem todo={todo} key={todo.id}/>
         )
       })}
     </div>

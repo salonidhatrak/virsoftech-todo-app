@@ -85,3 +85,14 @@ h2 {
       rgb(57, 190, 239) 0%,
       rgb(50, 131, 189) 100%);
 }
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.icon {
+  color: rgb(7, 62, 146);
+}
