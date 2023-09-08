@@ -5,8 +5,15 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h1{
+  margin-left: 32%;
+  padding: 15px 14px;
+  font-size: 30px;
+  color: rgb(102, 194, 227);
+}
+
 h2 {
-  margin: 25px 0;
+  margin: 25px;
   font-size: 30px;
   color: rgb(102, 194, 227);
 }
@@ -36,7 +43,7 @@ body {
   height: 50px;
   border: none;
   border-radius: 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(248, 240, 240);
   font-size: 20px;
   font-weight: bold;
   color: rgb(0, 0, 0);
