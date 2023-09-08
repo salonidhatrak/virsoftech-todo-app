@@ -4,7 +4,7 @@ function App() {
   return (
     <div className='box'>
       <h2>Temprature Converter</h2>
-      <TemperatureConverter/>
+      <TemperatureConverter />
     </div>
   );
 }

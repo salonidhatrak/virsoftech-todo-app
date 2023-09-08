@@ -22,7 +22,7 @@ h2 {
   flex-direction: column;
   justify-content: flex-start;
   width: 44%;
-  min-height: 560px;
+  min-height: 300px;
   margin: 128px auto;
   border-radius: 12px;
   padding-bottom: 30px;
@@ -32,9 +32,31 @@ h2 {
 
 .input {
   width: 324px;
+  margin-top: 15px;
   border-radius: 4px 4px 4px 4px;
   padding: 14px 32px 14px 16px;
   border: 2px solid rgb(128, 128, 128);
   outline: none;
   font-size: 15px;
+}
+
+.cel {
+  padding: 16px;
+  margin-left: 3px;
+  margin-top: 10px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px 4px 4px 4px;
+  cursor: pointer;
+  outline: none;
+  color: whitesmoke;
+  text-transform: none;
+  background: linear-gradient(90deg,
+      rgb(57, 190, 239) 0%,
+      rgb(50, 131, 189) 100%);
+}
+
+h3 {
+  padding-top: 16px;
+  color: rgb(19, 148, 148);
 }
