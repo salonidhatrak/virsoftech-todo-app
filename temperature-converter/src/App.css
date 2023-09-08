@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg,
+      rgb(57, 190, 239) 0%,
+      rgb(50, 131, 189) 100%);
+}
+
+h2 {
+  margin: 25px 0;
+  font-size: 30px;
+  color: rgb(3, 87, 117);
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 44%;
+  min-height: 560px;
+  margin: 128px auto;
+  border-radius: 12px;
+  padding-bottom: 30px;
+  background: whitesmoke;
+  text-align: center;
+}
