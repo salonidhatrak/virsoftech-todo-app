@@ -39,6 +39,7 @@ const TempratureConverter = () => {
                 />
             </label>
             <h3>{fahrenheit} Fahrenheit is equal to {celsius} Celsius.</h3>
+            <h3>{celsius} Celsius is equal to {fahrenheit} Fahrenheit. </h3>
         </div>
     );
 }
