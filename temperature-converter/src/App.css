@@ -29,3 +29,12 @@ h2 {
   background: whitesmoke;
   text-align: center;
 }
+
+.input {
+  width: 324px;
+  border-radius: 4px 4px 4px 4px;
+  padding: 14px 32px 14px 16px;
+  border: 2px solid rgb(128, 128, 128);
+  outline: none;
+  font-size: 15px;
+}
